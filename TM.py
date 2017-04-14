@@ -138,13 +138,26 @@
 # num=rfindchr("shdsaldh",'d')
 # print(num)
 # -------------3----------------
-def  subchr(string, origchar, newchar) :
-    length=len(string)
-    x = 0
-    while x < length :
-        if origchar == string[x] :
-            string[x] = newchar
-        x+=1
-    return string
-sts=subchr("shdsaldh",'d','N')
-print(sts)
+# def  subchr(string, origchar, newchar) :
+#     length=len(string)
+#     x = 0
+#     while x < length :
+#         if origchar == string[x] :
+#             string[x] = newchar
+#         x+=1
+#     return string
+# sts=subchr("shdsaldh",'d','N')
+# print(sts)
+#-------------------end----------------
+# 方法.实现一个叫 myPop()的函数,功能类似于列表的 pop()方法,用一个列表作为输入,
+# 移除列表的最新一个元素,并返回它.
+# def myPop( lists) :
+#     x = lists[0]
+#     del  lists[0]
+#     return x
+# lists = [2,3,4,1,2]
+# print(myPop(lists))
+#--------------------------------end----------------------
+
+
+
